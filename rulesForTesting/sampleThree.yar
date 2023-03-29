@@ -1,8 +1,8 @@
 rule testingRuleThree {
     strings:
         $string1 = "Virus"
-        $string2 = " is Uploading"
+        $string2 = "is Uploading"
 
     condition:
-        ($string1 and $string2)
+        ($string1 or $string2)
 }
