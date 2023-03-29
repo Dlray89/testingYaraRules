@@ -4,5 +4,5 @@ rule testingRuleThree {
         $string2 = "Uploading"
 
     condition:
-        ($string1 and $string2)
+        ($string1 or $string2)
 }
