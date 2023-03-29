@@ -1,6 +1,6 @@
 rule testingRuleOne {
     strings:
-        $string1 = "This"
+        $string1 = "This is"
         $string2 = "Malware"
 
     condition:
