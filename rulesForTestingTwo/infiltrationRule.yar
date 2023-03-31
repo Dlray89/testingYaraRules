@@ -4,5 +4,5 @@ rule infiltrationRule {
         $string2 = "infiltration"
 
     condition:
-        ($string1 or $string2)
+        ($string2)
 }
