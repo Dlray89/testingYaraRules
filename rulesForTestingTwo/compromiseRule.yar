@@ -1,4 +1,4 @@
-rule testingRuleTwo {
+rule compromisedRules {
     strings:
         $string1 = "Compromised"
         $string2 = "Comcast now"

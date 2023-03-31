@@ -1,4 +1,4 @@
-rule testingRuleThree {
+rule infiltrationRule {
     strings:
         $string1 = "Comcast"
         $string2 = "infiltration"
