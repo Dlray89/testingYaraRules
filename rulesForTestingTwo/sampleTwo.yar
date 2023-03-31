@@ -1,7 +1,7 @@
 rule testingRuleTwo {
     strings:
-        $string1 = "Ransomeware"
-        $string2 = "Payments now"
+        $string1 = "Compromised"
+        $string2 = "Comcast now"
 
     condition:
         ($string1 and $string2)

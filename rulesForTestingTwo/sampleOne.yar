@@ -1,7 +1,7 @@
 rule testingRuleOne {
     strings:
-        $string1 = "This is"
-        $string2 = "Malware"
+        $string1 = "Hello"
+        $string2 = "World"
 
     condition:
         ($string1 and $string2)
