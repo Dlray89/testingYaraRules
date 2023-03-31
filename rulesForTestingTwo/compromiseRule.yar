@@ -4,5 +4,5 @@ rule compromisedRules {
         $string2 = "Comcast now"
 
     condition:
-        ($string1 and $string2)
+        ($string1 or $string2)
 }
