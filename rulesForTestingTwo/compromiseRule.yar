@@ -1,7 +1,7 @@
 rule compromisedRules {
     strings:
-        $string1 = "your"
-        $string2 = "data is now compromised"
+        $string1 = "Compromised"
+        $string2 = "Comcast now"
 
     condition:
         ($string1 and $string2)
